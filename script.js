@@ -1,6 +1,6 @@
 // Hedef: 6 Kasım 2026, saat 20:20 — Türkiye saati (UTC+03:00).
 // Türkiye 2026 yılında UTC+03:00 kullandığı için hedefi bu offset ile tanımlıyoruz.
-const targetDate = new Date("2026-11-06T20:20:00+03:00");
+const targetDate = new Date("2026-12-18T16:30:00+03:00");
 
 const fields = {
   days: document.getElementById("days"),
