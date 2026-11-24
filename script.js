@@ -1,4 +1,4 @@
-// Hedef: 6 Kasım 2026, saat 20:20 — Türkiye saati (UTC+03:00).
+// Hedef: 18 Aralık 2026, saat 16:30 — Türkiye saati (UTC+03:00).
 // Türkiye 2026 yılında UTC+03:00 kullandığı için hedefi bu offset ile tanımlıyoruz.
 const targetDate = new Date("2026-12-18T16:30:00+03:00");
 
@@ -36,5 +36,5 @@ function updateCountdown() {
   document.title = `${days} gün ${hours} saat kaldı | Geri Sayım`;
 }
 
-updateCountdown();
 const timerInterval = setInterval(updateCountdown, 1000);
+updateCountdown();
